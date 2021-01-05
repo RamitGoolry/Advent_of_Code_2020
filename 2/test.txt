@@ -50,7 +50,7 @@
 10-14 b: dbwbbbbbldtbbbrbbq
 5-15 v: wvzftvfvzkcvjdvvzcj
 4-5 j: lrjdmjj
-1-15 q: qqqqqqqqqqqqqkqqq
+1-15 q: qqqqqqqqqqqqqqkqqq
 1-2 w: vwkw
 2-4 c: lccsfmkrnrldzbrc
 5-14 r: rcpghlsspmvwvzmpvl
@@ -997,4 +997,4 @@
 6-14 s: qpvlfbsgswsnwsmpz
 9-12 t: tvwstttttttktwt
 4-6 g: vslqbgg
-9-16 d: dsdddddddrdddddhdbddq
+9-16 d: dsdddddddrdddddhdbdd
