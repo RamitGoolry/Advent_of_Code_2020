@@ -6,7 +6,7 @@ def is_valid(line):
 
     # Parsing Condition
     range, char = condition.split()
-    lower, upper = [int(n) + 1 for n in range.split('-')]
+    lower, upper = [int(n) for n in range.split('-')]
 
     count = len(filter(lambda x : x == char, password))
 
