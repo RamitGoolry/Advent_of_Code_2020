@@ -1,8 +1,7 @@
 # FILE = 'example.txt'
 FILE = 'test.txt'
 
-RIGHT = 3
-DOWN = 1
+from functools import reduce
 
 X, Y = 0, 1
 
@@ -25,7 +24,8 @@ def main():
     with open(FILE) as file:
         m = file.read().split()
     
-    print(count_trees(m, RIGHT, DOWN))
+    print(reduce(lambda x, y : x * y, [count_trees(m, right, down) for right, down in [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]]))
+        
 
 if __name__ == '__main__':
     main()
