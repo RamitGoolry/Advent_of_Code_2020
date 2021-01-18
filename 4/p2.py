@@ -1,5 +1,5 @@
-# FILE = 'example2.txt'
-FILE = 'test.txt'
+FILE = 'example2.txt'
+# FILE = 'test.txt'
 
 import re
 import pandas as pd
@@ -36,7 +36,7 @@ def main():
     for category in rules:
         passports = passports[passports[category].str.contains(rules[category])]
 
-    print(passports.shape)
+    print(passports)
 
 if __name__ == '__main__':
     main()
